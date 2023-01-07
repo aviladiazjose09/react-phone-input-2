@@ -972,6 +972,7 @@ class PhoneInput extends React.Component {
           placeholder={this.props.placeholder}
           disabled={this.props.disabled}
           type='tel'
+          autoComplete='mobile tel'
           {...this.props.inputProps}
           ref={el => {
             this.numberInputRef = el;
