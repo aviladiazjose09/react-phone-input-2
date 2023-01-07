@@ -1,6 +1,6 @@
 {
   "name": "@joseavila_sg/react-phone-input-2",
-  "version": "2.15.0-5",
+  "version": "2.15.0-6",
   "description": "A react component to format phone numbers",
   "main": "lib/lib.js",
   "typings": "index.d.ts",
@@ -12,7 +12,7 @@
     "build:js": "TARGET=build_js NODE_ENV=production webpack -p --progress",
     "build:css": "TARGET=build_css NODE_ENV=production webpack -p --progress && rm ./main.js",
     "prepublishOnly": "npm run build",
-    "publish-npm": "npm run build & npm publish --access public",
+    "publish-npm": "npm run build && npm publish --access public",
     "analyze": "TARGET=analyze NODE_ENV=production webpack -p --progress"
   },
   "repository": {
