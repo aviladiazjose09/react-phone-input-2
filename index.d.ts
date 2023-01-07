@@ -57,6 +57,7 @@ declare module "@joseavila_sg/react-phone-input-2" {
   }
 
   export interface PhoneInputProps extends PhoneInputEventsProps, Style {
+    ref: React.MutableRefObject<null>;
     country?: string | number;
     value?: string | null;
 
